@@ -16,11 +16,11 @@ emotion_model.load_weights("emotion_model.h5")
 print("Loaded model from disk")
 
 # start the webcam feed
-# cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(0)
 
 # pass here your video path
 # you may download one from here : https://www.pexels.com/video/three-girls-laughing-5273028/
-cap = cv2.VideoCapture("C:\\Users\\acer\\sample videos\\3 girls laughing.mp4")
+# cap = cv2.VideoCapture("C:\\Users\\acer\\sample videos\\3 girls laughing.mp4")
 
 while True:
     # Find haar cascade to draw bounding box around face
